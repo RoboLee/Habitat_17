@@ -6,8 +6,8 @@
 trigger:
 - master
 
-#pool:
-#  vmImage: 'sserver06'
+pool:
+  vmImage: 'SSERVER06'
 
 variables:
   solution: '**/*.sln'
