@@ -19,8 +19,9 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'restore'
-    projects: 'D:\Habitat'
+    projects: 'D:\Habitat\Habitat.sln'
     feedsToUse: 'select'
+    includeNuGetOrg: false
 #- task: NuGetCommand@2
 #  inputs:
 #    restoreSolution: '$(solution)'
