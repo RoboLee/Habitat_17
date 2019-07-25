@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'default'
+  vmImage: 'sserver06'
 
 variables:
   solution: '**/*.sln'
