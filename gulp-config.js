@@ -1,5 +1,5 @@
 module.exports = function () {
-  var instanceRoot = "C:\\inetpub\\wwwroot\\habitat.dev.local";
+  var instanceRoot = "D:\\Jenkins\\Code";
   var config = {
     websiteRoot: instanceRoot + "\\",
     sitecoreLibraries: instanceRoot + "\\bin",
